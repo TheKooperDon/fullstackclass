@@ -9,7 +9,31 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" name="name-label" id="name" placeholder="Name" required>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" name="email-label" id="email" placeholder="Email" required>
+        <label for="age" id="age-label">Age:</label>
+        <input type="number" name="age-label" id="age" placeholder="Age" required>
+        <label for="dropdown-label">Are you a male or female?</label>
+        <select name="dropdown-label" id="dropdown">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <label for="number">Enter a date before 2000:</label>
+        <input type="number" id="number" name="datemax" max="1999" min="1900" ><br><br>
+        <label for="number-label">Favorite Number</label>
+        <input type="radio" name="number-label" id="number" value="number">
+        <label for="number-label">1</label>
+        <input type="radio" name="number-label" id="number" value="number">
+        <label for="number-label">7</label>
+        <input type="radio" name="number-label" id="number" value="number">
+        <label for="name-label">420</label>
+        <input type="radio" name="name-label" id="name" value="name">
+        <label for="name-label">39</label>
+        <input type="text" name="survey-form" id="#text" placeholder="Text" required>
         
+        <input type="submit" name="submit-label" id="submit" value="Submit">
     </form>
   </body>
 </html>
